@@ -1,0 +1,98 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ELEMENTOS BASE*/
+
+body{
+    background:var(--preta); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .logo{
+    color:red;
+    margin-left: 5px;
+    font-family: 'cursive', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    margin-right: 5px;
+    color:#AAA;
+    font-family: fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+/* JOGO PRINCIPAL*/
+.jogoPrincipal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url('../img/callofduty.png');
+
+    height: 450px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.jogoPrincipal .descricao{
+    margin-top: 10px;
+    margin-bottom:  45px;
+    color:rgb(245, 244, 244);
+}
+.jogoPrincipal .titulo{
+    margin-top: 15%;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    
+}
+.jogoPrincipal .botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color:rgb(245, 244, 244);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+
+    cursor:pointer;
+    transition:  .3s ease all;
+}
+.jogoPrincipal .container{
+    width: 50%;
+}
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.container {
+    margin-left: 30px;
+}
+.box-jogos{
+    height: 250px;
+    width: 10%;
+    display: block;
+}
+.carroselJogos{
+    margin-top: 5px;
+}
+
+
+
+
